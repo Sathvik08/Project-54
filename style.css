@@ -1,0 +1,76 @@
+h1{
+  color:red;
+  margin-left:30px;
+
+}
+.header * {
+color:red;
+
+
+}
+.many{
+color:red;
+margin-right:30px;
+margin-top:20px;
+
+}
+.header{
+background-color: lime;
+display:flex;
+justify-content: space-between;
+
+
+} 
+.oragami{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+
+}
+.footer{
+  display:flex;
+  justify-content: flex-end;
+}
+p,h2{
+  text-align:center;
+  color:white;
+}
+h3{
+  text-align:right;
+  font-size: small;
+  font-family:Arial;
+  color:purple;
+}
+body{
+  background-color:#45918d;
+}
+a:link{
+color:white;
+
+
+}
+a:visited{
+color:white;
+
+}
+
+.menu a{
+margin-left:30px;
+
+
+}
+.item{
+position:relative; 
+
+}
+.item h3{
+position:absolute;
+top:105%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+.item:hover img {
+  transform: scale(0.5,1)
+}
+
